@@ -13,6 +13,9 @@
     </p>
   </div>
 </xsl:for-each>
+<xsl:value-of select="system-property('xsl:version')" />
+<xsl:value-of select="system-property('xsl:vendor')" />
+<xsl:value-of select="system-property('xsl:vendor-url')" />
 </body>
 </html> 
 
